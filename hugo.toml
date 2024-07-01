@@ -1,0 +1,57 @@
+baseURL = 'https://0xcode.github.io/'
+
+theme = 'risotto'
+languageCode = 'en'
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+
+title = '0xcode'
+
+[params.theme]
+palette = "base16-dark"
+
+[params.about]
+title = 'puranikvinit'
+description = 'SoC Engineering Intern @ ARM | Systems Lead @ IRIS, NITK | ECE Senior, NITK'
+logo_image = 'images/profile.jpg'
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/puranikvinit"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/vinit-puranik-326794215"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:kvp933.vinit@gmail.com"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "journey"
+    name = "my-journey"
+    url = "/experience/"
+    weight = 10
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel   = 2
+    ordered    = true
