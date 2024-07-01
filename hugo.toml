@@ -7,6 +7,8 @@ enableInlineShortcodes = true
 
 title = '0xcode'
 
+sectionPagesMenu = "main"
+
 [params.theme]
 palette = "base16-dark"
 
