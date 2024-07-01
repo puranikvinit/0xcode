@@ -4,3 +4,6 @@
 [submodule "content/post"]
 	path = content/post
 	url = https://github.com/puranikvinit/linux-blogs.git
+[submodule "content/blogs"]
+	path = content/blogs
+	url = https://github.com/puranikvinit/linux-blogs.git
