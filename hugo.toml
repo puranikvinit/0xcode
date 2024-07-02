@@ -10,7 +10,7 @@ title = '0xcode'
 sectionPagesMenu = "main"
 
 [params.theme]
-palette = "base16-dark"
+palette = "base16-custom"
 
 [params.about]
 title = 'puranikvinit'
