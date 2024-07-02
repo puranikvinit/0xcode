@@ -8,9 +8,9 @@ toc = false
 
 ## [rpi5os](https://github.com/puranikvinit/rpi5os)
 
-(C, ARM, Raspberry Pi, Bare Metal Programming)
+(C, ARMv8 assembly, Raspberry Pi, OpenOCD, LLDB)
 
-- A minimalistic kernel written for the Raspberry Pi 5, written in C and ARMv8 assembly.
+- A minimalistic kernel for the Raspberry Pi 5, which uses the bcm2712 SoC based on ARM cortex a76 architecture.
 - Uses ARM PrimeCell PL011 UART (revision r1p5) for serial communication, with a baud rate of 9600 bps.
 - Uses the ARM Corelink Generic Interrupt Controller (GIC) - 400 for handling interrupts.
 - Uses the BCM2835 ARM System Timer for scheduling and timer ticks in general.
@@ -34,5 +34,5 @@ toc = false
 
 - A platform for seamless travel in Dakshina Kannada and Udupi regions, aiding curation and execution.
 - Designed a high-level system architecture, database ER diagram, and application feature list.
-- Creating a custom-curated travel path with OpenStreetMaps and MapBox SDK and API for Flutter’s map-based UI.
+- Created a custom-curated travel path with OpenStreetMaps and MapBox SDK and API for Flutter’s map-based UI.
 - Setup frontend interface for searching activities, trips and places on the map.
