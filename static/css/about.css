@@ -1,0 +1,61 @@
+.about__logo {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.about__title {
+  display: block;
+  text-align: center;
+}
+
+.about__title::before {
+  content: none;
+}
+
+.page__aside {
+  grid-area: aside;
+  color: var(--off-fg);
+  position: sticky;
+  top: 1rem;
+  right: 1rem;
+  overflow-y: auto;
+  max-height: 200vh;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aside__hr {
+  border: 0;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+  border-top: 3px dashed var(--muted);
+}
+
+.aside__hr:after {
+  content: none;
+}
+
+.about__description {
+  display: block;
+  text-align: center;
+}
+
+.aside__social-links {
+  padding: 0;
+  text-align: center;
+}
+
+.aside__social-links li {
+  display: inline-block;
+}
+
+.aside__social-links li::marker {
+  content: none;
+}

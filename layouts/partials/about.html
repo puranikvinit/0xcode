@@ -4,11 +4,10 @@
   end }} {{ with .logo_image }}<img
     class="about__logo"
     src="{{ . | absURL }}"
-    alt="Logo"
+    alt="Avatar"
   />{{ end }}
-  <h1 class="about__title">&nbsp;{{ .title }}</h1>
+  <h1 class="about__title">{{ .title }}</h1>
   {{ with .description }}
-  <br />
   <br />
   <p class="about__description">{{ . | markdownify }}</p>
   {{ end }}
@@ -23,7 +22,11 @@
       rel="me"
       aria-label="{{ $item.title }}"
       title="{{ $item.title }}"
-      ><i class="{{ $item.icon }}" aria-hidden="true"></i></a
+      ><i
+        class="{{ $item.icon }}"
+        aria-hidden="true"
+        style="font-size: 1.5rem"
+      ></i></a
     >&nbsp;
   </li>
   {{ end }}
