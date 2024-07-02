@@ -1,8 +1,8 @@
 baseURL = 'https://puranikvinit.github.io/0xcode/'
 
 theme = 'risotto'
-languageCode = 'en'
-DefaultContentLanguage = "en"
+languageCode = 'en-us'
+DefaultContentLanguage = "en-us"
 enableInlineShortcodes = true
 
 title = '0xcode'
