@@ -14,7 +14,7 @@ palette = "base16-custom"
 
 [params.about]
 title = 'puranikvinit'
-description = 'SoC Engineering Intern @ARM | Systems Lead @IRIS, NITK | ECE Senior, NITK'
+description = 'Ex - SoC Engineering Intern @ARM | Upcoming Firmware Engineer @Texas Instruments | Systems Lead @IRIS, NITK | ECE Senior, NITK'
 logo_image = 'images/profile.jpg'
 
 [[params.socialLinks]]

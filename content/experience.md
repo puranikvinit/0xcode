@@ -35,3 +35,13 @@ systems engineer and lead (March 2023 - Present)
 - Performed frontend/backend load testing on application modules using k6; monitored results via InfluxDB/Grafana.
 - Configured a 2-node k8s cluster (kubeadm) to support distributed load performance testing on application modules.
 - Implemented gVisor container sandbox on a Staging Server to isolate containers and mitigate kernel-level vulnerabilities.
+
+## [arm embedded technologies](https://www.arm.com/company)
+
+soc verification intern (July 2024 - December 2024)
+
+- Responsible for the maintenance of Validation and Verification Test Suites used for subsystem integration.
+- Developed an internal tool responsible for rendering customisable RTL and building corresponding test images.
+- Supported team in component integration and programming debugs.
+- Attempted to explore various internal tools responsible for the automation of RTL generation and compilation.
+- Gained understanding in industry-standard best practices and RTL design and verification workflows.
